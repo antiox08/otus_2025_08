@@ -139,7 +139,7 @@ celerybeat.pid
 .envrc
 .venv
 env/
-venv/
+otus_2025_08/venv/
 ENV/
 env.bak/
 venv.bak/
