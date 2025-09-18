@@ -10,7 +10,7 @@ class Figure(ABC):
 
     @property
     @abstractmethod
-    def perimetr(self):
+    def perimeter(self):
         pass
 
     def add_area(self, figure):
