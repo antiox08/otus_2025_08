@@ -6,9 +6,9 @@ import requests
 def test_brewery_unic_id(brewery):
     response = requests.get(f'https://api.openbrewerydb.org/v1/breweries/{brewery}')
 
-    response_json = response.json()
-
     assert response.status_code == 200, f'Ожидаемый статус 200, получен{response.status_code}'
+
+    response_json = response.json()
     assert 'id' in response_json
 
 
@@ -16,9 +16,10 @@ def test_brewery_unic_id(brewery):
 def test_sort_by_city(city):
     response = requests.get(f'https://api.openbrewerydb.org/v1/breweries?by_city={city}&per_page=3')
 
+    assert response.status_code == 200
+
     response_json = response.json()
 
-    assert response.status_code == 200
     for brewery in response_json:
         assert brewery['city'].lower() == city.lower()
 

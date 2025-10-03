@@ -61,6 +61,7 @@
     "Python tests.Python tests for test_dog_API.test_get_url.executor": "Run",
     "Python tests.Python tests for test_dog_API.test_invalid_dog_breed.executor": "Run",
     "Python tests.Python tests in r.py.executor": "Run",
+    "Python.5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
@@ -71,20 +72,27 @@
       <recent name="D:\Pasha\code\Code\otus_2025_08\API" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for addoption_test.test_get_addoption">
-    <configuration name="Python tests for HW_API.brewer_api_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for brewer_api_test.test_sort_by_city">
+    <configuration name="5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="otus_2025_08" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW_API" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;HW_API.brewer_api_test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_api/5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for addoption_test.test_get_addoption" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -102,7 +110,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for placeholder_api_test.test_invalid_url" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for brewer_api_test.test_sort_by_city" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="otus_2025_08" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +121,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;placeholder_api_test.test_invalid_url&quot;" />
+      <option name="_new_target" value="&quot;brewer_api_test.test_sort_by_city&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -132,21 +140,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for placeholder_api_test.test_postid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="otus_2025_08" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;placeholder_api_test.test_postid&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for placeholder_api_test.test_users_field" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="otus_2025_08" />
       <option name="ENV_FILES" value="" />
@@ -162,28 +155,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_brewer_api.test_single_brewery" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="otus_2025_08" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW_API" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_brewer_api.test_single_brewery&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for brewer_api_test.test_sort_by_city" />
+        <item itemvalue="Python.5" />
         <item itemvalue="Python tests.Python tests for addoption_test.test_get_addoption" />
         <item itemvalue="Python tests.Python tests for placeholder_api_test.test_users_field" />
         <item itemvalue="Python tests.Python tests for placeholder_api_test.test_post_field" />
-        <item itemvalue="Python tests.Python tests for placeholder_api_test.test_invalid_url" />
-        <item itemvalue="Python tests.Python tests for placeholder_api_test.test_postid" />
       </list>
     </recent_temporary>
   </component>
