@@ -9,6 +9,7 @@ def test_brewery_unic_id(brewery):
     assert response.status_code == 200, f'Ожидаемый статус 200, получен{response.status_code}'
 
     response_json = response.json()
+
     assert 'id' in response_json
 
 
@@ -47,9 +48,9 @@ def test_invalid_size():
     url = 'https://api.openbrewerydb.org/v1/breweries/random?size=51'
     response = requests.get(url)
 
-    response_json = response.json()
-
     assert response.status_code == 400, f'Ожидаемый статус 400, получен{response.status_code}'
+
+    response_json = response.json()
 
     assert response_json['size'][0] == 'The size field must not be greater than 50.'
 
